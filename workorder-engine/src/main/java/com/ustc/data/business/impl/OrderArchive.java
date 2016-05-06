@@ -20,7 +20,7 @@ public class OrderArchive extends OrderHandle {
 	@Override
 	public void handle(Workorder order) {
 
-		System.out.println("执行成功，工单入库归档...");
+		System.out.println("执行成功，工单入库归档!...！！");
 		order.setState("arch");
 	}
 
